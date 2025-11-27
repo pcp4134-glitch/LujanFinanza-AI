@@ -2,7 +2,7 @@ import { GoogleGenAI, Type, Modality, LiveServerMessage } from "@google/genai";
 import { Transaction, ImageSize } from "../types";
 
 const apiKey = process.env.API_KEY || '';
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
+const ai = new GoogleGenAI({ apiKey });
 
 // Helper to encode image to base64
 export const fileToGenerativePart = async (file: File): Promise<string> => {
