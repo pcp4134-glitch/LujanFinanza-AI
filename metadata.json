@@ -1,0 +1,8 @@
+{
+  "name": "LujanFinanza AI",
+  "description": "A professional financial management dashboard for educational institutions, powered by Google Gemini for receipt analysis, financial insights, and automated reporting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
